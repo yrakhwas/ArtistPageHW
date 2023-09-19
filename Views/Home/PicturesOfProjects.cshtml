@@ -1,5 +1,53 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Pictures of projects";
 }
+<h1>@ViewData["Title"]</h1>
+<div class="folder-conteiner">@* спроба створити папку з файлами))) *@
+    <div class="folder">
+        <div class="folder-header">Папка 1</div>
+    </div>
+    <div class="folder">
+        <div class="folder-header">Папка 2</div>
+        </div>
+    <div class="folder">
+        <div class="folder-header">Папка 3</div>
+    </div>
+</div>
+<div action="images-from-movies">
+<div class="image-holder">
+    <h3>Simpsons</h3>
+    <hr />
+        <div class="photoes">
+            <img src="/img/simpsons/Simpsons.png"/>
+            <img src="/img/simpsons/Simpsons-family.jpg" />
+            <img src="/img/simpsons/Maggie.jpg" />
+            <img src="/img/simpsons/Lisa.png" />
+            <img src="/img/simpsons/Lisa.jpg" />
+            <img src="/img/simpsons/Homer.jpg" />
+            <img src="/img/simpsons/eating-homer.jpg" />
+            <img src="/img/simpsons/Bart.png" />
+            <img src="/img/simpsons/Abe.jpg" />
+        </div>
+</div>
+    <div class="image-holder">
+    <h3>Futurama</h3>
+    <hr />
+    <div class="photoes">
+            <img src="/img/futurama/bender.jpg" />
+            <img src="/img/futurama/Futurama.jpg" />
+            <img src="/img/futurama/Leela.jpg" />
+            <img src="/img/futurama/Main-hero.jpg" />
+            <img src="/img/futurama/ZoidBerg.jpg" />
+            <img src="/img/futurama/professor.jpg" />
+    </div>
+    </div>
+<div class="image-holder">
+    <h3>Life In Hell</h3>
+    <hr />
+    <div class="photoes">
+            <img src="/img/lifeinhell/LifeInHell.jpg"/>
+            <img src="/img/lifeinhell/LifeInHell2.jpg"/>
+            <img src="/img/lifeinhell/LifeinHell3.jpg" />
+    </div>
+    </div>
+</div>

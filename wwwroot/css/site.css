@@ -33,3 +33,23 @@ body {
     justify-content:space-between;
     
 }
+.folder-conteiner {
+    display: flex;
+
+}
+.folder 
+{
+    display:flex;
+    justify-content: center; /* Горизонтальне центрування */
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    background-image: url(/img/icons8.png);
+}
+.photoes img
+{
+   margin:10px;
+}
